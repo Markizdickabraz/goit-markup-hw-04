@@ -126,12 +126,10 @@ ul {
   padding-top: 32px;
   padding-bottom: 32px;
 }
-/* .navigation-list .navigation-link:hover,
-.navigation-list .navigation-link:focus,
-.contact-link:hover,
-.contact-link:focus {
+.navigation-list .navigation-link:hover,
+.navigation-list .navigation-link:focus {
   color: var(--accent-color);
-} */
+}
 .navigation-list .accent-navigation {
   color: var(--accent-color);
 }
