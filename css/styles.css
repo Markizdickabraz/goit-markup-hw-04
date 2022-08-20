@@ -182,9 +182,16 @@ ul {
 }
 .item-portfolio:nth-child(-n + 6) {
   margin-bottom: 30px;
+  display: block;
 }
 .item-portfolio:nth-child(3n + 3) {
   margin-right: 0px;
+  display: block;
+}
+.item-portfolio:hover,
+.item-portfolio:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 /* .item-portfolio .title { пописав для бордер-портфоліо
   padding-top: 20px;
@@ -293,12 +300,15 @@ ul {
   background-color: var(--light-grey-color);
   width: 270px;
   height: 120px;
-  padding-left: 100px;
+  display: flex;
+  /* padding-left: 100px;
   padding-right: 100px;
   padding-top: 25px;
-  padding-bottom: 25px;
+  padding-bottom: 25px; */
   margin-bottom: 30px;
   fill: currentColor;
+  align-items: center;
+  justify-content: center;
 }
 /* .advantage-icon {
   fill: currentColor;
@@ -319,8 +329,8 @@ ul {
   display: flex;
   gap: 10px;
   margin-top: 16px;
-  padding-left: 32px;
-  padding-right: 32px;
+  /* padding-left: 32px;
+  padding-right: 32px; */
 }
 .team-icon-link {
   display: inline-block;
@@ -328,8 +338,11 @@ ul {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  padding: 12px;
+  /* padding: 12px; */
   fill: var(--icon-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /* .team-icon-svg {
   fill: currentColor;
@@ -350,6 +363,8 @@ ul {
     0px 2px 1px #00000033;
   padding-top: 30px;
   padding-bottom: 30px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 .caption {
   color: var(--title-color);
@@ -409,10 +424,13 @@ ul {
   fill: var(--icon-color);
   width: 170px;
   height: 92px;
-  padding-left: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding-left: 32px;
   padding-right: 32px;
   padding-top: 16px;
-  padding-bottom: 16px;
+  padding-bottom: 16px; */
 }
 .clients-icon-link:hover,
 .clients-icon-link:focus {
@@ -438,8 +456,12 @@ ul {
   margin-top: 20px;
 }
 .footer-flex-icon {
-  padding-top: 15px;
-  padding-bottom: 37px;
+  /* padding-top: 15px;
+  padding-bottom: 37px; */
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-direction: column;
 }
 .footer-icon-link {
   display: inline-block;
@@ -447,14 +469,17 @@ ul {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 12px; */
   fill: var(--white-color);
   background-color: rgba(255, 255, 255, 0.1);
 }
 .footer-icon-link:hover,
 .footer-icon-link:focus {
   background-color: var(--accent-color);
-  fill: var(--white-color);
+  /* fill: var(--white-color); */
 }
 .footer-caption {
   color: var(--white-color);
