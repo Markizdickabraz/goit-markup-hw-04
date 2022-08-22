@@ -162,6 +162,8 @@ ul {
 }
 .portfolio-link {
   display: block;
+  text-decoration: none;
+  color: inherit;
 }
 .list-item {
   margin-right: 30px;
