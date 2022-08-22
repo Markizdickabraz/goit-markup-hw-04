@@ -160,6 +160,9 @@ ul {
   display: flex;
   flex-wrap: wrap;
 }
+.portfolio-link {
+  display: block;
+}
 .list-item {
   margin-right: 30px;
 }
